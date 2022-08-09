@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.37);
+    color: black;
+}
+
+button{
+    color: #149cca;
+}
+table{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+@media screen and( min-width:567px){
+    .modified{
+        width:100%
+    }
+}
